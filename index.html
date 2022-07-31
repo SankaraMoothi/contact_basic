@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My_First_Web_Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form action="Contact_Us">
+    <h1>Contact Us Form</h1>
+    <p class="Main_para">We Are here to Help U Out Of Any Problem So Be Confident to Contact Us</p>
+    <div>
+    <fieldset class="Send_Message">
+    <legend>Send Us The Message</legend>
+    <p>We Responce In 24 Hours</p>
+    <label for="Name" class="nam">Name :</label>
+    <input type="text" name="name" placeholder="Enter Name" class="inname">
+    <label for="Email" class="Ema">Email :</label>
+    <input type="text" name="Email" id="" placeholder="Enter Email" class="inEmail">
+    <br>
+    <br>
+    <label for="Mobile_Number" class="mob">Mobile_Number :</label>
+    <input type="number" name="number" placeholder="Enter Number" class="inmobile">
+    <label for="Country">Country :</label>
+    <select name="Country" id="Country_id">
+        <optgroup label="Country">
+            <option value="Other">Other</option>
+            <option value="SriLanka">SriLanka</option>
+            <option value="USA">USA</option>
+            <option value="Japanes">Japanes</option>
+            <option value="Indian">Indian</option>
+    </optgroup>
+    </select>
+    
+    <br>
+    <br>
+    <label for="Your_Reason" class="det" placeholder="Write SomeThing">Your_Reason :</label>
+    <br>
+    <textarea name="Resone" id="Resone" cols="50" rows="8"></textarea>
+    <br>
+    <br>
+    <button type="submit" class="sub" id="demo">submit</button> 
+    <button type="reset" class="res">reset</button>   
+    </div>
+</fieldset>
+    <section class="Achivement">
+        <aside>
+            <details>
+                <summary>Guess The <mark>Number Of Customer</mark> We Handle Per Day</summary>
+                <p>As Per The Last Record We Have Achived Up To <mark> 600 Succesfull Call Per Day</mark></p>
+            </details>
+        </aside>
+    </section>
+</form>
+    <script src="index.js"></script>
+</body>
+</html>

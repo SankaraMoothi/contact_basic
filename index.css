@@ -1,0 +1,39 @@
+body{
+    background-image:url(natural.jpg);
+    background-size: cover;
+}
+.Main_para{
+    
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+}
+.nam,inname{
+    margin-left: 40px;
+}
+.mob,inmobile{
+    margin-left: 10px;
+}
+.det,indetail{
+    margin-left: 20px;
+}
+.res{
+    margin-left: 50px;
+    background-color: rgb(180, 56, 56);
+}
+.sub{
+    margin-left: 250px;
+    background-color:rgb(31, 116, 235);
+}
+#Resone{
+    margin-left: 50px;
+}
+.Achivement{
+    margin-left:500px;
+    margin-top: 15px;
+}
+.Send_Message{
+    margin-left: 480px;
+    margin-right: 400px;
+}
